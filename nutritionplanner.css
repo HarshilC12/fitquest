@@ -1,0 +1,184 @@
+div.mainBox{
+    background-color: rgb(185, 215, 233);
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: rgb(185, 215, 233);
+    overflow: hidden;
+    text-align: center;
+    padding: 1vh;
+    font-size: 4vh;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    color: #6eb5df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a.download {
+    float: none;
+    color: #35a81e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #5485c8;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: rgb(0, 1, 44);
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body{
+    background-color: rgb(185, 215, 233);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .mainImage {
+  /* The image used */
+    background-image: url("mainImage.jpg");
+  
+  /* Full height */
+    height: 90%;
+  
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    filter: brightness(50%);
+  }
+  
+  .mainText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .mainImageContainer {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .mainImageBackground {
+    background-image: url("food.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .logo{
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding-bottom: 1vh;
+  }
+  
+  .fit{
+    font-weight: bold;
+    color: #6eb5df;
+    font-size: 5vh;
+  }
+  
+  .quest{
+    font-weight: bold;
+    color: #5485c8;
+    font-size: 5vh;
+  }
+  
+  .nutrition-form {
+    margin-top: 30px;
+  }
+  
+  .nutrition-form input {
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nutrition-form button {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #35a81e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .nutrition-form button:hover {
+    background-color: #2d8f1a;
+  }
+  
+  .nutrition-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  .plan-result {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  
+  .plan-result h2 {
+    color: #5485c8;
+    text-align: center;
+  }
+  
+  .plan-result h3 {
+    color: #6eb5df;
+  }
+  
+  .meal-plan {
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+
+  footer{
+    padding: 2vh;
+    background-color: #000000;
+    color: white;
+    border-radius: 1vh;
+  }

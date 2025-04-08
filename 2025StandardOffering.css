@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.box {
+    background-color: #dbeeff;
+    border: 0.5vh solid #00396e;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    min-height: 15vh;
+    border-radius: 1vh;
+}
+
+.downloadText{
+  color: #35a81e;
+  text-decoration: none;
+  width: 60vh;
+}
+
+div.mainBox{
+    background-color: rgb(185, 215, 233);
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: (185, 215, 233);
+    overflow: hidden;
+    text-align: center;
+    padding: 1vh;
+    font-size: 4vh;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    color: #6eb5df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  body{
+    background-color: rgb(185, 215, 233);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  .topnav a.download {
+    float: none;
+    color: #35a81e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #5485c8;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: rgb(0, 1, 44);
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  footer{
+    padding: 2vh;
+    background-color: #000000;
+    color: white;
+    border-radius: 1vh;
+  }
+
+  .logo{
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding-bottom: 1vh;
+  }
+
+  .image{
+    width: 20vh;
+  }
+
+  .fitnessImg{
+    width: 35vh;
+  }

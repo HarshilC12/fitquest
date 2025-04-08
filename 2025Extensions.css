@@ -1,0 +1,148 @@
+div.mainBox{
+    background-color: rgb(185, 215, 233);
+  
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: (185, 215, 233);
+    overflow: hidden;
+    text-align: center;
+    padding: 1vh;
+    font-size: 4vh;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    color: #6eb5df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a.download {
+    float: none;
+    color: #35a81e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #5485c8;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: rgb(0, 1, 44);
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body{
+    background-color: rgb(185, 215, 233);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-image: url("Extensions Background.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y:center;
+  }
+  
+  .mainText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  .mainImageBackground {
+    background-image: url("mainImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .logo{
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding-bottom: 1vh;
+  }
+  
+.extensionBox{
+    border-color: rgb(0, 0, 46);
+    background-color:#6eb5df;
+    border-style: groove;
+    border-width: 0.5vh;
+    text-align: center;
+    display:inline-block;
+    min-height: 35vh;
+    width: 60vh;
+}
+
+.extensionName{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.extensionText{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.downloadText{
+    color: #35a81e;
+    text-decoration: none;
+    width: 60vh;
+}
+
+.slogan{
+    width: 60vh;
+    text-align: center;
+    margin: auto;
+}
+
+.extensionContainer {
+    width: 60vh;
+    margin: auto; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer{
+  padding: 2vh;
+  background-color: #000000;
+  color: white;
+  border-radius: 1vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+.box {
+  background-color: rgb(217, 236, 252, 0.9);
+  border: 0.5vh solid #00396e;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  min-height: 15vh;
+  border-radius: 1vh;
+}

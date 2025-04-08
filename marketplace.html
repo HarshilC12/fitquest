@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitQuest Marketplace - Buy & Sell Fitness Items</title>
+    <link rel="stylesheet" href="marketplace.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html" class="logo-link">
+            <span class="fit">Fit</span><span class="quest">Quest</span>
+        </a>
+        <div class="nav-links">
+            <a href="#" class="active">Marketplace</a>
+            <a href="#">Browse</a>
+            <a href="#">Sell</a>
+            <a href="#">Messages</a>
+            <a href="#">Account</a>
+            <a href="2025Hack.html">FitQuest Official Website</a>
+        </div>
+    </div>
+
+    <div class="mainBox">
+        <div class="search-container">
+            <input type="text" placeholder="Search for fitness items..." id="searchInput">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="equipment">Equipment</option>
+                <option value="clothing">Clothing</option>
+                <option value="supplements">Supplements</option>
+                <option value="accessories">Accessories</option>
+            </select>
+            <button onclick="searchItems()">Search</button>
+        </div>
+
+        <div class="marketplace-container">
+            <div class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" onclick="filterCategory('all')">All Items</a></li>
+                    <li><a href="#" onclick="filterCategory('equipment')">Equipment</a></li>
+                    <li><a href="#" onclick="filterCategory('clothing')">Clothing</a></li>
+                    <li><a href="#" onclick="filterCategory('supplements')">Supplements</a></li>
+                    <li><a href="#" onclick="filterCategory('accessories')">Accessories</a></li>
+                </ul>
+
+                <h3>Location</h3>
+                <input type="text" placeholder="Enter your location" id="locationInput">
+
+                <h3>Price Range</h3>
+                <div class="price-range">
+                    <input type="number" placeholder="Min" id="minPrice">
+                    <span>to</span>
+                    <input type="number" placeholder="Max" id="maxPrice">
+                </div>
+            </div>
+
+            <div class="items-grid" id="itemsGrid">
+                <!-- Items will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 FitQuest Marketplace. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Help Center</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="marketplace.js"></script>
+</body>
+</html>

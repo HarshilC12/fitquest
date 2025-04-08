@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitQuest AI Planner</title>
+    <link rel="stylesheet" href="fitnessplanner.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="logo.png" alt="FitQuest Logo" class="logo">
+    <div class="topnav">
+        <a href="2025Hack.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="2025StandardOffering.html">Standard Offering</a>
+        <a href="2025Extensions.html">Extensions</a>
+        <a href="Contact.html">Contact</a>
+        <a class="download" href="https://www.canva.com/design/DAGkEraMQ8M/hTRRUb3KJrb0hhdbHBBGPg/edit">Download App</a>
+    </div>
+    <div class="mainBox">
+        <div class="fitness-planner">
+            <h2>AI Fitness Planner</h2>
+            <form id="fitnessForm">
+                <div class="form-group">
+                    <label for="fitnessLevel">Your Current Fitness Level:</label>
+                    <select id="fitnessLevel" required>
+                        <option value="">Select your level</option>
+                        <option value="beginner">Beginner (just starting out)</option>
+                        <option value="intermediate">Intermediate (some experience)</option>
+                        <option value="advanced">Advanced (regular exerciser)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="goals">Your Primary Fitness Goal:</label>
+                    <select id="goals" required>
+                        <option value="">Select your goal</option>
+                        <option value="weight_loss">Weight Loss</option>
+                        <option value="muscle_gain">Muscle Building</option>
+                        <option value="endurance">Endurance/Cardio</option>
+                        <option value="general_fitness">General Fitness</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="daysPerWeek">How many days can you workout per week?</label>
+                    <input type="number" id="daysPerWeek" min="1" max="7" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="equipment">What equipment do you have access to?</label>
+                    <select id="equipment" required>
+                        <option value="none">No equipment</option>
+                        <option value="basic">Basic (dumbbells, resistance bands)</option>
+                        <option value="full_gym">Full gym access</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="workoutLength">Preferred workout length (minutes):</label>
+                    <input type="number" id="workoutLength" min="20" max="120" value="45" required>
+                </div>
+                
+                <button type="submit">Generate My Personalized Plan</button>
+            </form>
+            
+            <div id="planResult" class="plan-result">
+                <div id="planContent"></div>
+            </div>
+        </div>
+    </div>
+    <footer>Copyright © 2025. Terms & Privacy</footer>
+    <script src="fitnessplanner.js"></script>
+</body>
+</html>

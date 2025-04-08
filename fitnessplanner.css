@@ -1,0 +1,221 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(185, 215, 233);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+div.mainBox {
+    background-color: rgb(185, 215, 233);
+    padding: 20px;
+}
+
+/* Navigation */
+.topnav {
+    background-color: rgb(185, 215, 233);
+    overflow: hidden;
+    text-align: center;
+    padding: 1vh;
+    font-size: 4vh;
+}
+
+.topnav a {
+    float: none;
+    color: #6eb5df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a.download {
+    float: none;
+    color: #35a81e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.topnav a:hover {
+    color: #5485c8;
+}
+
+.topnav a.active {
+    color: rgb(0, 1, 44);
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fit{
+    font-weight: bold;
+    color: #6eb5df;
+    font-size: 5vh;
+  }
+  
+  .quest{
+    font-weight: bold;
+    color: #5485c8;
+    font-size: 5vh;
+  }
+
+/* Fitness Planner Styles */
+.fitness-planner {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #5485c8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: #35a81e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2d8c1a;
+}
+
+.plan-result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    display: none;
+}
+
+.workout-day {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.workout-day:last-child {
+    border-bottom: none;
+}
+
+.day-title {
+    color: #6eb5df;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.exercise {
+    margin-bottom: 15px;
+}
+
+.exercise-name {
+    font-weight: bold;
+}
+
+.exercise-details {
+    color: #666;
+    margin-left: 15px;
+}
+
+.loading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+/* About Section Styles */
+.AboutImageContainer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    color: #fff;
+    text-align: center;
+}
+
+.about-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-title {
+    font-size: 64px;
+}
+
+.fit-about {
+    color: #6eb5df;
+    font-weight: 800;
+}
+
+.quest-about {
+    color: #5485c8;
+    font-weight: 800;
+}
+
+.about-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer{
+    padding: 2vh;
+    background-color: #000000;
+    color: white;
+    border-radius: 1vh;
+  }
